@@ -1,0 +1,605 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F2929364288A041E00FC322B /* PassPalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2929363288A041E00FC322B /* PassPalApp.swift */; };
+		F2929366288A041E00FC322B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2929365288A041E00FC322B /* ContentView.swift */; };
+		F2929368288A042100FC322B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2929367288A042100FC322B /* Assets.xcassets */; };
+		F292936B288A042100FC322B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F292936A288A042100FC322B /* Preview Assets.xcassets */; };
+		F292936D288A042100FC322B /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = F292936C288A042100FC322B /* Persistence.swift */; };
+		F2929370288A042100FC322B /* PassPal.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F292936E288A042100FC322B /* PassPal.xcdatamodeld */; };
+		F292937B288A042200FC322B /* PassPalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F292937A288A042200FC322B /* PassPalTests.swift */; };
+		F2929385288A042200FC322B /* PassPalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2929384288A042200FC322B /* PassPalUITests.swift */; };
+		F2929387288A042200FC322B /* PassPalUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2929386288A042200FC322B /* PassPalUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F2929377288A042200FC322B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F2929358288A041E00FC322B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F292935F288A041E00FC322B;
+			remoteInfo = PassPal;
+		};
+		F2929381288A042200FC322B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F2929358288A041E00FC322B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F292935F288A041E00FC322B;
+			remoteInfo = PassPal;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F2929360288A041E00FC322B /* PassPal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PassPal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2929363288A041E00FC322B /* PassPalApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassPalApp.swift; sourceTree = "<group>"; };
+		F2929365288A041E00FC322B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F2929367288A042100FC322B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F292936A288A042100FC322B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F292936C288A042100FC322B /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		F292936F288A042100FC322B /* PassPal.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PassPal.xcdatamodel; sourceTree = "<group>"; };
+		F2929371288A042100FC322B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2929376288A042200FC322B /* PassPalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PassPalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F292937A288A042200FC322B /* PassPalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassPalTests.swift; sourceTree = "<group>"; };
+		F2929380288A042200FC322B /* PassPalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PassPalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2929384288A042200FC322B /* PassPalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassPalUITests.swift; sourceTree = "<group>"; };
+		F2929386288A042200FC322B /* PassPalUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassPalUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F292935D288A041E00FC322B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2929373288A042200FC322B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F292937D288A042200FC322B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F2929357288A041E00FC322B = {
+			isa = PBXGroup;
+			children = (
+				F2929362288A041E00FC322B /* PassPal */,
+				F2929379288A042200FC322B /* PassPalTests */,
+				F2929383288A042200FC322B /* PassPalUITests */,
+				F2929361288A041E00FC322B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F2929361288A041E00FC322B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F2929360288A041E00FC322B /* PassPal.app */,
+				F2929376288A042200FC322B /* PassPalTests.xctest */,
+				F2929380288A042200FC322B /* PassPalUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F2929362288A041E00FC322B /* PassPal */ = {
+			isa = PBXGroup;
+			children = (
+				F2929363288A041E00FC322B /* PassPalApp.swift */,
+				F2929365288A041E00FC322B /* ContentView.swift */,
+				F2929367288A042100FC322B /* Assets.xcassets */,
+				F292936C288A042100FC322B /* Persistence.swift */,
+				F2929371288A042100FC322B /* Info.plist */,
+				F292936E288A042100FC322B /* PassPal.xcdatamodeld */,
+				F2929369288A042100FC322B /* Preview Content */,
+			);
+			path = PassPal;
+			sourceTree = "<group>";
+		};
+		F2929369288A042100FC322B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F292936A288A042100FC322B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F2929379288A042200FC322B /* PassPalTests */ = {
+			isa = PBXGroup;
+			children = (
+				F292937A288A042200FC322B /* PassPalTests.swift */,
+			);
+			path = PassPalTests;
+			sourceTree = "<group>";
+		};
+		F2929383288A042200FC322B /* PassPalUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F2929384288A042200FC322B /* PassPalUITests.swift */,
+				F2929386288A042200FC322B /* PassPalUITestsLaunchTests.swift */,
+			);
+			path = PassPalUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F292935F288A041E00FC322B /* PassPal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F292938A288A042200FC322B /* Build configuration list for PBXNativeTarget "PassPal" */;
+			buildPhases = (
+				F292935C288A041E00FC322B /* Sources */,
+				F292935D288A041E00FC322B /* Frameworks */,
+				F292935E288A041E00FC322B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PassPal;
+			productName = PassPal;
+			productReference = F2929360288A041E00FC322B /* PassPal.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F2929375288A042200FC322B /* PassPalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F292938D288A042200FC322B /* Build configuration list for PBXNativeTarget "PassPalTests" */;
+			buildPhases = (
+				F2929372288A042200FC322B /* Sources */,
+				F2929373288A042200FC322B /* Frameworks */,
+				F2929374288A042200FC322B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F2929378288A042200FC322B /* PBXTargetDependency */,
+			);
+			name = PassPalTests;
+			productName = PassPalTests;
+			productReference = F2929376288A042200FC322B /* PassPalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F292937F288A042200FC322B /* PassPalUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2929390288A042200FC322B /* Build configuration list for PBXNativeTarget "PassPalUITests" */;
+			buildPhases = (
+				F292937C288A042200FC322B /* Sources */,
+				F292937D288A042200FC322B /* Frameworks */,
+				F292937E288A042200FC322B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F2929382288A042200FC322B /* PBXTargetDependency */,
+			);
+			name = PassPalUITests;
+			productName = PassPalUITests;
+			productReference = F2929380288A042200FC322B /* PassPalUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F2929358288A041E00FC322B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					F292935F288A041E00FC322B = {
+						CreatedOnToolsVersion = 14.0;
+					};
+					F2929375288A042200FC322B = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = F292935F288A041E00FC322B;
+					};
+					F292937F288A042200FC322B = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = F292935F288A041E00FC322B;
+					};
+				};
+			};
+			buildConfigurationList = F292935B288A041E00FC322B /* Build configuration list for PBXProject "PassPal" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F2929357288A041E00FC322B;
+			productRefGroup = F2929361288A041E00FC322B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F292935F288A041E00FC322B /* PassPal */,
+				F2929375288A042200FC322B /* PassPalTests */,
+				F292937F288A042200FC322B /* PassPalUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F292935E288A041E00FC322B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F292936B288A042100FC322B /* Preview Assets.xcassets in Resources */,
+				F2929368288A042100FC322B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2929374288A042200FC322B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F292937E288A042200FC322B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F292935C288A041E00FC322B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2929370288A042100FC322B /* PassPal.xcdatamodeld in Sources */,
+				F292936D288A042100FC322B /* Persistence.swift in Sources */,
+				F2929366288A041E00FC322B /* ContentView.swift in Sources */,
+				F2929364288A041E00FC322B /* PassPalApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2929372288A042200FC322B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F292937B288A042200FC322B /* PassPalTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F292937C288A042200FC322B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2929385288A042200FC322B /* PassPalUITests.swift in Sources */,
+				F2929387288A042200FC322B /* PassPalUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F2929378288A042200FC322B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F292935F288A041E00FC322B /* PassPal */;
+			targetProxy = F2929377288A042200FC322B /* PBXContainerItemProxy */;
+		};
+		F2929382288A042200FC322B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F292935F288A041E00FC322B /* PassPal */;
+			targetProxy = F2929381288A042200FC322B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F2929388288A042200FC322B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F2929389288A042200FC322B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F292938B288A042200FC322B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PassPal/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.saimkhan.PassPal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F292938C288A042200FC322B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PassPal/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.saimkhan.PassPal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F292938E288A042200FC322B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.saimkhan.PassPalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PassPal.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PassPal";
+			};
+			name = Debug;
+		};
+		F292938F288A042200FC322B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.saimkhan.PassPalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PassPal.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PassPal";
+			};
+			name = Release;
+		};
+		F2929391288A042200FC322B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.saimkhan.PassPalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PassPal;
+			};
+			name = Debug;
+		};
+		F2929392288A042200FC322B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.saimkhan.PassPalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PassPal;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F292935B288A041E00FC322B /* Build configuration list for PBXProject "PassPal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2929388288A042200FC322B /* Debug */,
+				F2929389288A042200FC322B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F292938A288A042200FC322B /* Build configuration list for PBXNativeTarget "PassPal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F292938B288A042200FC322B /* Debug */,
+				F292938C288A042200FC322B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F292938D288A042200FC322B /* Build configuration list for PBXNativeTarget "PassPalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F292938E288A042200FC322B /* Debug */,
+				F292938F288A042200FC322B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2929390288A042200FC322B /* Build configuration list for PBXNativeTarget "PassPalUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2929391288A042200FC322B /* Debug */,
+				F2929392288A042200FC322B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F292936E288A042100FC322B /* PassPal.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F292936F288A042100FC322B /* PassPal.xcdatamodel */,
+			);
+			currentVersion = F292936F288A042100FC322B /* PassPal.xcdatamodel */;
+			path = PassPal.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F2929358288A041E00FC322B /* Project object */;
+}
