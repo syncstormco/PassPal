@@ -18,3 +18,9 @@ struct PassPalApp: App {
         }
     }
 }
+
+struct Previews_PassPalApp_Previews: PreviewProvider {
+    static var previews: some View {
+        Text("Welcome to PassPal")
+    }
+}
